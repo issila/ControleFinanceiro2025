@@ -10,5 +10,7 @@ namespace Apoio.Data
         }
 
         public DbSet<Instituicao> Instituicoes { get; set; }
+
+        public DbSet<Departamento> Departamentos { get; set; }
     }
 }
